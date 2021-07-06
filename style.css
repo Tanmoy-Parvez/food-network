@@ -136,6 +136,40 @@ background-position: cover;
     padding: 40px;
 }
 
+.message-area{
+    height: 650px;
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.message-area h1{
+    font-size: 40px;
+    color: rgb(56, 54, 54);
+    margin-bottom: 10px;
+}
+.message-area h4{
+    color: grey;
+    margin-bottom: 10px;
+}
+
+
+.message-box{
+    width: 60%;
+    height: 150px;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 50px;
+    margin-top: 50px;
+    background: orange;
+}
+
+.message-box h1, h3{
+   color: #fff;
+}
+
 footer{
     text-align: center;
     color: grey;
