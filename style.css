@@ -1,6 +1,37 @@
-body{
+*{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+}
+
+.menu{
+    height: 60px;
+    background: rgb(9, 6, 22);
+    padding: 15px 20px 0px 20px;
+}
+
+.menu h1{
+    float: left;
+    color: grey;
+}
+
+.menu-item {
+  margin-left: 810px;
+}
+
+.menu li{
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 25px;
+}
+
+.menu ul li{
+   margin-right: 10px;
+}
+
+.link-item{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
 }
 
 .flexible-container{
@@ -11,22 +42,24 @@ body{
 .orange-text{
     color: orange;
 }
+
 .text-area {
     width: 50%;
     padding-left: 50px;
-    margin-top: 90px;
+    margin-top: 120px;
 }
 
 .text-area h1{
     font-size: 45px;
     color: rgb(105, 104, 104);
-    line-height: 30px;
+    line-height: 55px;
 }
 
 .text-area p{
     color: grey;
     text-align: justify;
     margin-bottom: 50px;
+    margin-top: 20px;
     padding-right: 50px;
 }
 
@@ -48,19 +81,19 @@ body{
     margin-left: 25px;
 }
 
-#second-section{
+#about-section{
 background-image: url(images/bg.png);
 background-repeat: no-repeat;
 background-position: cover;
 }
 
-#second-section img{
+#about-section img{
     width: 55%;
     margin-top: 80px;
     margin-left: 150px;
 }
 
-#second-section h2{
+#about-section h2{
     font-size: 35px;
     color: rgb(156, 139, 139);
 }
@@ -72,7 +105,7 @@ background-position: cover;
 
 .recipes-item{
     width: 30%;
-    height: 500px;
+    height: 480px;
     margin: 2%;
     box-shadow: 5px 5px 30px grey;
     border-radius: 10px;
@@ -84,12 +117,13 @@ background-position: cover;
     width: 100%;
     height: 280px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 footer{
     text-align: center;
     color: grey;
     background: rgb(9, 6, 22);
-    height: 190px;
-    padding: 20px;
+    height: 140px;
+    padding-top: 50px;
 }
